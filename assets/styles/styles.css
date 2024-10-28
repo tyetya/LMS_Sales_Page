@@ -1,3 +1,70 @@
-* {
-    font-family: "Vrng";
+:root {
+    --primary: #2f66ad;
+    --light: rgb(255, 235, 181);
+    --dark: hsla(224, 100%, 50%, 0.412);
+    --link: hsl(0, 97%, 46%);
+    --link-hover:  hwb(111 40% 28%);
 }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* NAVBAR */
+
+.navbar {
+    padding: 1rem 2rem;
+    background-color: var(--light);
+    color: var(--dark);
+}
+
+.logo {
+    height: 5rem;
+}
+
+.header-navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-items {
+    display: flex;
+}
+
+.nav-link {
+    padding: 0.5rem 1rem;
+    font-weight: 500;
+    color: var(--link);
+    display: block;
+}
+
+.nav-link:hover {
+    transition: 0.6s;
+    color: var(--link-hover);
+}
+
+/* MAIN BANNER */
+
