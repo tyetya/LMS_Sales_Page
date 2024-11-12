@@ -99,12 +99,74 @@ banner-content {
     width: 100%;
 }
 
+/* TESTIMONIALS */
+
+.testimonials-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 40px;
+    margin: 4rem 0;
+}
+
+.card {
+    outline: 1px solid red;
+    padding: 2rem;
+}
+
+.card-heading {
+    font-size: 1.8rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+/* PRICING */
+
+.pricing-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 60px;
+    margin: 2rem 0;
+}
+
+.price-tag {
+    font-size: 1.8rem;
+    letter-spacing: 1px;
+    font-weight: 600;
+    padding: 1rem 0;
+    margin-bottom: 1rem;
+    border-bottom: 3px ridge var(--primary);
+}
+
+.pricing-tagline {
+    min-height: 3.5rem;
+}
+
+.pricing-feature-list {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.footer-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 40px;
+    text-align: center;
+}
+
+.footer-link {
+    color: var(--light);
+
+}
+
+.footer-link:hover {
+    color: var(--link-hover);
+}
 
 /* UTILITY */
 
 .container {
-    margin: 2rem auto;
-    padding: 0 1rem;
+    margin: 0 auto;
+    padding: 2rem 2rem;
     max-width: 1400px;
 
 }
@@ -131,6 +193,13 @@ banner-content {
 
 .btn.btn.btn-primary:hover {
     background-color: var(--link-hover);
+}
+
+.card {
+    color: var(--dark);
+    background-color: var(--light);
+    padding: 1rem;
+    border-radius: 1rem;
 }
 
 p {
@@ -161,4 +230,9 @@ h3 {
 
 .text-center {
     text-align: center;
+}
+
+.bg-dark {
+    background-color: var(--dark);
+    color: var(--light);
 }
