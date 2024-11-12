@@ -84,9 +84,30 @@ banner-content {
     width: 60%;
 }
 
+/* VIDEO */
+
+.video-content {
+    margin: 0 auto;
+    max-width: 900px;
+}
+
+.video-content .action-buttons {
+    text-align: left;
+}
+
+.video-content > .video-preview {
+    width: 100%;
+}
 
 
 /* UTILITY */
+
+.container {
+    margin: 2rem auto;
+    padding: 0 1rem;
+    max-width: 1400px;
+
+}
 
 .btn {
     background-color: var(--light);
@@ -129,11 +150,15 @@ h2 {
     margin: 1.8rem 0 2rem;
     font-size: 1.8rem;
     font-weight: 600;
+
 }
 
 h3 {
     margin: 1.5rem 0;
     font-size: 1.5rem;
     font-weight: 600;
-    
+}
+
+.text-center {
+    text-align: center;
 }
