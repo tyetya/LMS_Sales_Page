@@ -243,3 +243,16 @@ h3 {
     background-color: var(--dark);
     color: var(--light);
 }
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 992px) {
+    html {
+        font-size: 20px;
+    }
+
+    /* TESTIMONIALS */
+    .testimonials-container {
+        grid-template-columns: 1fr;
+    }
+}
